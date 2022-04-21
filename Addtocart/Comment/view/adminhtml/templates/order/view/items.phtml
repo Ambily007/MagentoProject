@@ -1,0 +1,7 @@
+<?php
+$_item = $block->getItem();
+$giftMessage = $_item->getCustomComment();
+
+if( !empty($giftMessage) ) {
+    echo $_item->getCustomComment();
+}
